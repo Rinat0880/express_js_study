@@ -16,7 +16,7 @@ const db = {
 }
 
 app.get('/', (req, res) => {
-    res.send('server is workin');
+    res.send('server is workin!!!!!!');
 })
 app.get('/courses', (req, res) => {
     let foundCourses = db.courses;
